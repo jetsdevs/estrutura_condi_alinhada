@@ -1,0 +1,1 @@
+# estrutura_condi_alinhada
