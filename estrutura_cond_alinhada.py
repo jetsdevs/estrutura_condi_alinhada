@@ -7,7 +7,16 @@ cheque_especial_universitaria = 200.0
 while True:
     opcao = int(
         input(
-            "Esolha o tipo de conta: \n[1] Conta correnta \n[2] Conta Universitaria \n[0] Encerrar atendimento \n"
+            """
+            ========Opções=======
+
+            Esolha o tipo de conta:
+            [1] Conta correnta 
+            [2] Conta Universitaria
+            [0] Encerrar atendimento
+            
+            *******Fim*******
+            """
         )
     )
 
@@ -38,4 +47,9 @@ while True:
     if opcao > 2:
         print("Opção invalida, tente novamente!")
 # Fim do metodo conta universitaria
-print("Encerrando sistema!")
+print(
+    """
+      Agradecemos o uso do nosso sistema!
+      Volte Sempre!
+      """
+)
